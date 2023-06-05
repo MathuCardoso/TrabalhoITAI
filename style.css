@@ -1,0 +1,246 @@
+html, body{
+    color: var(--main-bg-color);
+    min-height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+:root {
+    --main-bg-color:#002f49;
+}
+
+.head {
+    background: var(--main-bg-color);
+    color: #fff;
+    height: 50px;
+}
+
+.img-right img{
+    height: 580px;
+}
+
+.destaque-texto{
+    padding-top: 150px;
+    padding-left: 35px;
+}
+
+.destaque-texto h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-p{
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+i{
+    font-size: 25px;
+}
+
+li a{
+    color: var(--main-bg-color);
+    font-size: 17px;
+}
+
+.destaque {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 580px;
+}
+
+.not h2{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.img-carsl{
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.carousel .row{
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.carsl-col{
+    width: 320px;
+    height: 460px;
+    padding: 0;
+}
+
+.carousel h2{
+    width: 320px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: start;
+}
+
+.carousel p{
+    margin-top: 15px;    
+}
+
+.card-body{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.card{
+    border: none;
+    border-radius: 90px;
+    width: 90%;
+}
+
+.btn-saiba{
+    color: #f7c601;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btn-saiba:hover{
+    color: #f7c601;
+}
+
+#ourSolut{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 9.5%;
+    color: #f7c601;
+    font-weight: bold;
+}
+
+#pSolut{
+    margin: 0 0;
+    color: white;
+    margin-left: 9.5%;
+    font-size: 19px;
+}
+
+.text{
+    gap: 0;
+}
+
+.saibaMais{
+    gap: 40px;
+    background: url(https://www.itai.org.br/static/media/solution.b2c4b9f2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.saibaMais img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cont-know{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clientes{
+    margin-top: 150px;
+    background-color: #eee;
+    padding: 60px;
+    height: 400px;
+}
+
+.clientes h2{
+    font-weight: bold;
+    font-size: 33px;
+    color: var(--main-bg-color);
+    margin-bottom: 40px;
+}
+
+.clientes img{
+    max-height: 120px;
+    width: auto;
+}
+
+.carousel2 .row{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #002f49;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #002f49;
+}
+
+
+footer{
+    background-color: var(--main-bg-color);
+    padding: 90px 90px 20px;
+    color: #fff;
+}
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a{
+    color: #fff;
+    margin: 5px;
+}
+
+footer i{
+    width: 45%;
+    height: 45%;
+}
+
+footer h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+/* CSS PARA DISPOSITIVOS GRANDES */
+@media screen and (min-width: 1080px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
